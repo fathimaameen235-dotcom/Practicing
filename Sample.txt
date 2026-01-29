@@ -1,0 +1,1 @@
+Full stack" refers to a software developer who can work on both the front end (what users see and interact with, like website design) and the back end (the server, database, and logic that powers the application) of a website or application, handling the entire development process from start to finish. 
