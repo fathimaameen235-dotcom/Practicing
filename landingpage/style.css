@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display:flex ;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #111;
+}
+
+.logo {
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Landing Page */
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.text a{
+  text-decoration: none;
+  background-color: #111;
+  color: white;
+}
+
+.text button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+}
+
+
+.image img {
+  width: 350px;
+  border-radius: 10px;
+}
+/* Contact Page */
+.contact {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+ 
+ }
+
+.contact a{
+  text-decoration: none;
+  color:white;
+}
+
+.contact p {
+  color: #666;
+  margin-bottom: 20px;
+  
+}
+
+.contact-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+ 
+}
+/* About Page */
+.about {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.about-text {
+  max-width: 400px;
+}
+
+.about-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-img img {
+  width: 350px;
+  border-radius: 10px;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    border-radius: 1px; 
+    gap: 30px;
+    color: white;
+    background-color: #bb3232;
+    
+}
+:hover.button{
+    color:#cb0fa3 ;
+    background-color: rgb(0, 0, 0); 
+
+}
+.form{
+    display: block;
+    margin: 15px;
+    padding: 5px;
+    gap:10px;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+}
+
+
+.submit{
+     width: 200px;
+     margin-left: 45px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #111; 
+}
+:hover.submit{
+    color:#111 ;
+    background-color: white; 
+}
